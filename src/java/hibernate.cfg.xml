@@ -5,8 +5,8 @@
     <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
     <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
     <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dbvideo_club?zeroDateTimeBehavior=convertToNull&amp;useUnicode=yes&amp;characterEncoding=UTF-8;connectionCollation=utf8_general_ci;characterSetResults=utf8</property>
-    <property name="hibernate.connection.username">root</property>
-    <property name="hibernate.connection.password">sh1mun1c</property>   
+    <property name="hibernate.connection.username">change_me</property>
+    <property name="hibernate.connection.password">change_me_too</property>   
     <mapping resource="com/snezana/models/Film.hbm.xml"/>
     <mapping resource="com/snezana/models/Role.hbm.xml"/>
     <mapping resource="com/snezana/models/User.hbm.xml"/>
